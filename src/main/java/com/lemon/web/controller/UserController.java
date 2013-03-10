@@ -27,7 +27,7 @@ public class UserController {
 		if (owner != null) {
 			request.getSession().setAttribute("username", username);
 			request.getSession().setAttribute("wid", owner.getWid());
-			ModelAndView mav = new ModelAndView("forward:/index");
+			ModelAndView mav = new ModelAndView("forward:/zindex");
 			return mav;
 		}
 		return new ModelAndView("/index");

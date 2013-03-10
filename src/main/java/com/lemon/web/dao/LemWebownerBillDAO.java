@@ -26,11 +26,6 @@ public class LemWebownerBillDAO {
 		return j.queryForObject(sql, new Object[] { wid, date }, Float.class);
 	}
 
-	public int queryCount(long wid) {
-		String sql = "SELECT count(*) as count FROM lez_webowner_bill WHERE wid=?";
-		return j.queryForInt(sql, new Object[] { wid });
-	}
-
 	public List<LemWebownerBillDTO> queryBill(long wid, int pageNum,
 			int pageSize) {
 		String sql = "SELECT billdate, showcount, showincome, payflag, paytime FROM lez_webowner_bill WHERE wid=? ORDER BY subtime DESC LIMIT "
@@ -38,6 +33,11 @@ public class LemWebownerBillDAO {
 		return j.query(sql, new Object[] { wid }, new BeanPropertyRowMapper(
 				LemWebownerBillDTO.class));
 	}
+
+    public int queryCount(long wid) {
+        String sql = "SELECT count(*) as count FROM lez_webowner_bill WHERE wid=?";
+        return j.queryForInt(sql, new Object[] { wid });
+    }
 
 	
 }
