@@ -61,9 +61,13 @@ color:#0063e3;
                         </tr>
                         </c:forEach>
                     </table>
+
                 </div>
+                <div class="page">${pageHtml}</div>
             </div>
+
         </div>
+
         <jsp:include page="/common/footer.jsp" />
     </div>
 </body>
