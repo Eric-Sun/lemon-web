@@ -196,10 +196,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                         </ul>
                     </div>
                     <div id="con_ss_1" class="tpsc_con con02" >
-						<c:out value="${kf.content }"/>
+						<c:out value="${kf.content }" escapeXml="false"/>
                     </div>
                     <div id="con_ss_2" class="tpsc_con con02" style="display:none">
-                        <c:out value="${kf.content }"/>
+                        <c:out value="${kf.content }" escapeXml="false"/>
                     </div>
                 </div>
             </div>
