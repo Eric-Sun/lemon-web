@@ -30,7 +30,7 @@ public class UserController {
 			ModelAndView mav = new ModelAndView("forward:/index");
 			return mav;
 		}
-		return new ModelAndView("/index");
+		return new ModelAndView("redirect:/index");
 	}
 
 	@RequestMapping("/regist")
