@@ -79,7 +79,7 @@
 <!-- 导航 begin -->
 <div class="nav">
     <ul>
-        <li><a href="/index" class="">首页</a></li>
+        <li><a href="/" class="">首页</a></li>
         <li><img src="/images/navdiv.gif" alt="" /></li>
         <li><a href="/user/index" class="">我的乐盟</a></li>
         <li><img src="/images/navdiv.gif" alt="" /></li>

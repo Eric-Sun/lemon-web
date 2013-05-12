@@ -30,10 +30,10 @@ public class UserController {
         if (owner != null) {
             request.getSession().setAttribute("username", username);
             request.getSession().setAttribute("wid", owner.getWid());
-            ModelAndView mav = new ModelAndView("forward:/index");
+            ModelAndView mav = new ModelAndView("forward:/");
             return mav;
         }
-        return new ModelAndView("redirect:/index");
+        return new ModelAndView("redirect:/");
     }
 
     @RequestMapping("/regist")
@@ -89,7 +89,7 @@ public class UserController {
                 sitetype, banktype, province, city, bankaddr, bankcard,
                 account, status + "", regip, flag + "", beian);
 
-        return "/index";
+        return "/";
     }
 
     @RequestMapping("/logout")
@@ -97,14 +97,14 @@ public class UserController {
                          HttpServletResponse response) {
         request.getSession().removeAttribute("wid");
         request.getSession().removeAttribute("username");
-        return "forward:/index";
+        return "forward:/";
     }
 
     @RequestMapping("/user/modify1")
     public ModelAndView modifyUser1(HttpServletRequest request,
                                     HttpServletResponse reopnse) {
         if (request.getSession().getAttribute("wid") == null)
-            return new ModelAndView("forward:/index");
+            return new ModelAndView("forward:/");
         long wid = new Long(request.getSession().getAttribute("wid").toString());
         String truename = request.getParameter("truename");
         String address = request.getParameter("address");
@@ -120,7 +120,7 @@ public class UserController {
     public ModelAndView modifyUser2(HttpServletRequest request,
                                     HttpServletResponse reopnse) {
         if (request.getSession().getAttribute("wid") == null)
-            return new ModelAndView("forward:/index");
+            return new ModelAndView("forward:/");
         long wid = new Long(request.getSession().getAttribute("wid").toString());
         String oldpwd = request.getParameter("oldpwd");
         String newpwd = request.getParameter("newpwd");

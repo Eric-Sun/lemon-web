@@ -31,9 +31,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 <p>当前位置：<a href="#" style="color:#bec300;">首页</a>&nbsp;&gt;&nbsp;联盟新闻</p>
             </div>
             <div class="clear xwwzy xwcon">
-                <p class="title"><c:out value="${LemNewsDTO.title }" />
-                <div class="con"><c:out value="${LemNewsDTO.content }" escapeXml="false"/></div>
-                <p class="ly">发布人:乐盟运营部  发布时间:<c:out value="${LemNewsDTO.createtime }" /></p>
+                <p class="title">外汇交易的经纪人MT4
+                <div class="con">
+                请输入手机号：<input type="text"/> <br>
+                如需下载请发送短信DMT1到10658032。
+                <br>
+                <a href="/images/MetaTrader4_waihuijiao.apk" >确认下载</a>
+            </div>
+                <p class="ly">发布人:乐盟运营部  发布时间:2013-02-01 20:23:44</p>
             </div>
         </div>
         <!-- Content end -->

@@ -17,7 +17,7 @@ import com.lemon.web.dto.LemProductDTO;
 import com.lemon.web.service.ContentService;
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("")
 public class ContentController {
 	@Autowired
 	ContentService contentService;
@@ -61,7 +61,7 @@ public class ContentController {
 		return mav;
 	}
 
-	@RequestMapping("/index")
+	@RequestMapping("")
 	public ModelAndView index(HttpServletRequest request,
 			HttpServletResponse response) {
 		List<LemProductDTO> pdto = contentService.getLast2Product();
@@ -74,6 +74,7 @@ public class ContentController {
 		List<LemNewsDTO> hangye = contentService.hangyezixun();
 		LemNewsDTO kf = contentService.kf();
 		ModelAndView mav = new ModelAndView("/index");
+        System.out.println("fdsfdsa");
 		mav.addObject("pdto", pdto);
 		mav.addObject("ndto", ndto);
 		mav.addObject("tdto", tdto);

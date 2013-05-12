@@ -34,7 +34,7 @@ public class IncomeController {
     public ModelAndView index(HttpServletRequest request,
                               HttpServletResponse response) {
         if (request.getSession().getAttribute("wid") == null)
-            return new ModelAndView("forward:/index");
+            return new ModelAndView("forward:/");
         long wid = new Long(request.getSession().getAttribute("wid").toString());
         int pageNum = 1;
         if (request.getParameter("pageNum") != null) {
@@ -57,7 +57,7 @@ public class IncomeController {
     public ModelAndView orderToday(HttpServletRequest request,
                                    HttpServletResponse response) {
         if (request.getSession().getAttribute("wid") == null)
-            return new ModelAndView("forward:/index");
+            return new ModelAndView("forward:/");
         long wid = new Long(request.getSession().getAttribute("wid").toString());
         int pageNum = 1;
         if (request.getParameter("pageNum") != null) {
@@ -80,7 +80,7 @@ public class IncomeController {
     public ModelAndView createsite(HttpServletRequest request,
                                    HttpServletResponse response) {
         if (request.getSession().getAttribute("wid") == null)
-            return new ModelAndView("forward:/index");
+            return new ModelAndView("forward:/");
         long wid = new Long(request.getSession().getAttribute("wid").toString());
         String siteName = request.getParameter("sitename");
         String siteDomain = request.getParameter("siteurl");
@@ -97,7 +97,7 @@ public class IncomeController {
     public ModelAndView mysites(HttpServletRequest request,
                                 HttpServletResponse response) {
         if (request.getSession().getAttribute("wid") == null)
-            return new ModelAndView("forward:/index");
+            return new ModelAndView("forward:/");
         long wid = new Long(request.getSession().getAttribute("wid").toString());
         List<MySiteDTO> siteList = incomeService.sitesList(wid);
 
@@ -110,7 +110,7 @@ public class IncomeController {
     public ModelAndView ivr(HttpServletRequest request,
                             HttpServletResponse response) {
         if (request.getSession().getAttribute("wid") == null)
-            return new ModelAndView("forward:/index");
+            return new ModelAndView("forward:/");
         long wid = new Long(request.getSession().getAttribute("wid").toString());
         List<LemIvrInfoDTO> ivrList = incomeService.ivrInfoList(wid);
 
@@ -123,7 +123,7 @@ public class IncomeController {
     public ModelAndView userinfo(HttpServletRequest request,
                                  HttpServletResponse response) {
         if (request.getSession().getAttribute("wid") == null)
-            return new ModelAndView("forward:/index");
+            return new ModelAndView("forward:/");
         long wid = new Long(request.getSession().getAttribute("wid").toString());
         LemWebownerDTO owner = userService.get(wid);
         ModelAndView mav = new ModelAndView("/user/userinfo");
@@ -135,7 +135,7 @@ public class IncomeController {
     public ModelAndView finance(HttpServletRequest request,
                                 HttpServletResponse response) {
         if (request.getSession().getAttribute("wid") == null)
-            return new ModelAndView("forward:/index");
+            return new ModelAndView("forward:/");
         long wid = new Long(request.getSession().getAttribute("wid").toString());
         LemWebownerDTO owner = userService.get(wid);
         ModelAndView mav = new ModelAndView("/user/finance");
