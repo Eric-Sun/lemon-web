@@ -99,8 +99,8 @@
 
     </dependencies>
     <properties>
-        <config>deploy</config>
-            </properties>
+        <config>dev</config>
+    </properties>
     <build>
         <finalName>lemon-web</finalName>
         <resources>

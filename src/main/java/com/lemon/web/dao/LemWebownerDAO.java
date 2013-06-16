@@ -80,8 +80,8 @@ public class LemWebownerDAO {
         j.update(siteSql, siteParms);
 
         for (String p : Constants.provinceMap.keySet()) {
-            String s = "insert into webowner_province (wid,province) values(?,?)";
-            j.update(s, new Object[]{wid, p});
+            String s = "insert into webowner_province (wid,province,province2) values(?,?,?)";
+            j.update(s, new Object[]{wid, Constants.provinceMap.get(p), p});
         }
     }
 

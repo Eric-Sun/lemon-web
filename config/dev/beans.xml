@@ -38,5 +38,12 @@
 			<value>4096</value>
 		</property>
 	</bean>
-	
+
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath*:/*.properties</value>
+            </list>
+        </property>
+    </bean>
 </beans> 
