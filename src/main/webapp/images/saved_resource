@@ -1,0 +1,32 @@
+
+var bdPass=bdPass||{};
+bdPass.api=bdPass.api||{};
+bdPass.api.params=bdPass.api.params||{};
+bdPass.api.params.login_token='0ba9d05da17e4a63b0d4c5f3eef27718';
+	bdPass.api.params.login_tpl='pp';
+
+	bdPass.api.insertScript = bdPass.api.insertScript||function(u,cb){
+		var d = document,s = d.createElement('SCRIPT');
+		s.type = 'text/javascript';
+		s.charset = 'UTF-8';
+		if (s.readyState) { //IE
+			s.onreadystatechange = function(){
+				if (s.readyState == "loaded" || s.readyState == "complete") {
+					s.onreadystatechange = null;
+					cb&&cb();
+				}
+			};	
+		}else{
+			s.onload = function(){
+				cb&&cb();
+			};
+		}
+		s.src = u;
+		d.getElementsByTagName('head')[0].appendChild(s);
+	}
+			bdPass.api.insertScript('https://passport.baidu.com/js/v2ApiUsedTangramFunctions.js?v=20130517',function(){
+			bdPass.api.insertScript('https://passport.baidu.com/js/pass_api_login.js?v=20130517',function(){
+				_PassUni1370860836559();
+			});
+		});
+	

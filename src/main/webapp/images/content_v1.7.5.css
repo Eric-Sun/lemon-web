@@ -1,0 +1,1557 @@
+body{
+	_background-image:url(text.txt);
+	_background-attachment:fixed;
+}
+.fleft {
+  float: left;
+}
+.fright {
+  float: right;
+}
+.color-red{
+  color:red;
+}
+.color-orange {
+  color: #ff4e00;
+}
+.color-gray {
+  color: #666;
+}
+.color-black {
+  color: #000;
+}
+.ml18 {
+  margin-left: 18px;
+}
+.mr18 {
+  margin-right: 18px;
+}
+.mr36 {
+  margin-right: 36px;
+}
+.f12 {
+  font-size: 12px;
+}
+.ptb7 {
+  padding: 7px 0;
+}
+.middle_nav {
+  padding: 2px 0 12px 0;
+  font-size: 12px;
+}
+.middle_nav a {
+  color: #333;
+}
+.content-main {
+  width: 750px;
+}
+.content-main .content-main-border {
+  border: 1px #d8d8d8 solid;
+}
+.content-side {
+  width: 220px;
+  position: relative;
+}
+.content-side .side-topic{
+  height:100px;
+  width:220px;
+  margin-bottom:10px;
+}
+
+/*相关专题*/
+.slide_wrap{position:relative;width:220px;height:100px; margin-bottom:0px;border:none;background:#fff;color:#666;overflow:hidden;}
+.slide_imglist{}
+.slide_imglist li{float:left;margin-right:3px;display:inline;}
+.slide_imglist li img{width:220px;height:100px;display:block;}
+.slide_title_bg{z-index:1;bottom:0;left:0;width:100%;height:18px;overflow:hidden;position:absolute;background:#000;opacity: 0.0;-moz-opacity: 0.0;filter:alpha(opacity=0);}
+.slide_title{z-index:2;bottom:0;left:0;width:100%;height:18px;overflow:hidden;position:absolute;}
+.slide_title h3{position:absolute;top:0;left:0;height:18px;line-height:18px;overflow:hidden;padding:0 10px;z-index:2;display:block;}
+.slide_title h3 a{color:#efefef;font-weight:bold;font-size:12px;}
+.slide_title h3 a:hover{color:#ff0;}
+.slide_title em{position:absolute;left:0;display:block;top:0;width:100%;height:18px;opacity:0.0;filter:alpha(opacity=0);background:#000;z-index:1;}
+.slide_num{right:0px;z-index:3;top:0;position:absolute;}
+.slide_num dd{margin-top:3px;border-left:1px #888787 solid;color:#fff;display:inline;font-weight:bold;width:18px;height:12px;font-size:12px;text-align:center;line-height:12px;cursor:pointer;float:left;}
+.slide_num dd.active{color:#ff9921;}
+
+.content-side .side-ad {
+  height: 265px;
+  overflow: hidden;
+  margin-bottom:10px;
+}
+.content-side .side-ad img {
+  width: 220px;
+}
+.content-side .side-ad a {
+  display: block;
+}
+.content-side .side-ad a.side-link {
+  width: 220px;
+  height: 262px;
+}
+.content-side .side-ad a.side-download {
+  width: 185px;
+  height: 60px;
+  position: absolute;
+  left: 18px;
+  top: 167px;
+  background-color: yellow;
+  opacity:0;
+  filter:alpha(opacity=0);
+}
+.content-side .side-ad a.side-download .tjitem {
+  display: block;
+  width: 185px;
+  height: 60px;
+}
+.content-side h3 {
+  background-color: #efefef;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  color: #000;
+  font-size: 14px;
+  border-bottom: 1px solid #d8d8d8;
+}
+.content-side .mod-guess {
+  border: 1px #d8d8d8 solid;
+  margin-bottom: 10px;
+}
+.content-side .mod-guess table {
+  width: 100%;
+}
+.content-side .mod-guess table td {
+  border-bottom: 1px #ccc dotted;
+  vertical-align: middle;
+  height: 70px;
+}
+.content-side .mod-guess table td.icon {
+  width: 68px;
+  text-align: center;
+}
+.content-side .mod-guess table td.title-start {
+  text-align: left;
+}
+.content-side .mod-guess table td.title-start .relative_down_btn{
+ float:left;
+ display:none;
+}
+
+.content-side .mod-guess table td.title-start h4 {
+  margin-bottom: 8px;
+}
+.content-side .mod-guess table td.title-start h4 a {
+  display: block;
+  width: 130px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #555;
+}
+.content-side .mod-guess .s-index-star{
+	height: 25px;
+}
+.content-side .mod-guess .btn-wrap{
+	display:none;
+}
+.content-side .mod-guess .btn-download-app{
+	display:block;
+	text-align:center;
+	font-size:12px;
+	width:60px;
+	height:25px;
+	line-height:25px;
+	color:#fff;
+	text-decoration:none;
+	background:url(http://m.baidu.com/static/as/images/s-index-icon-3.png?ver=201208010) #FF4E00 -228px -47px;	
+}
+.content-side .mod-guess .btn-download-app:hover{
+	background-position:-228px -74px;
+	text-decoration:none;
+}
+
+.content-side .mod-guess table td.nbb {
+  border-bottom: none;
+}
+.content-side .mod-guess .icon img {
+  width: 48px;
+  height: 48px;
+}
+.content-main .com {
+  padding: 10px 10px 2px 10px;
+  _padding: 10px 5px;
+}
+.content-main .com .info-top {
+  border-bottom: 1px #bfbfbf dotted;
+  padding: 12px 16px 8px 27px;
+  _position: relative;
+  _z-index: 100;
+}
+.content-main .com .info-top dl {
+  font-size: 12px;
+}
+.content-main .com .info-top dl .fleft img{
+  width:72px;
+  height:72px;
+}
+.content-main .com .info-top dl dt p {
+  text-align: center;
+  line-height: 24px;
+}
+.content-main .com .info-top dl dd {
+  padding-left: 95px;
+}
+.content-main .com .info-top dl dd.info-star .color-orange {
+  margin: 0 10px;
+}
+.info-params table{
+	width:100%;
+	_width:99.3%;
+	_position:relative;	
+}
+.info-params table td{
+	padding: 0px 0px;
+	height:25px;
+}
+
+.info-params table td.attlogo{
+width:30px;
+}
+.info-params table td.atttitle{
+width:50px;
+color:#A2A2A2;
+}
+
+
+.info-btn-row{
+	padding:8px 0;
+}
+a.info-btn-install{
+	display:inline-block;
+	width:71px;
+	height:40px;
+	margin: 0 auto;
+	line-height:40px;
+	text-align:center;
+	color:#fff;
+	font-weight:700;
+	text-decoration:none;
+	background:url(http://m.baidu.com/static/as/images/jpg/sprite-suite.jpg);
+	background-color:#ff4e00;
+}
+a.info-btn-install:hover{
+	text-decoration:none;
+}
+.origin-wrap{	
+	position:relative;	
+	line-height:25px;
+	height:25px;
+	z-index:100;	
+}
+.origin-label{
+	position:absolute;	
+	display:inline-block;
+	width: 36px;
+	height: 25px;
+}
+.origin-list{
+	position:absolute;	
+	left:30px;	
+	top:28px;	
+	background-color:#fff;
+	border:1px #d9d9d9 solid;
+	padding:0 8px;
+	display:none;
+}
+.origin-list li{
+	line-height:25px;
+}
+.origin-list li a{
+	color:#000;
+	white-space:nowrap;
+}
+.origin-target{
+	position:absolute;	
+	left:30px;
+	display:inline-block;	
+	height: 25px;
+	background:url(http://m.baidu.com/static/as/images/jpg/sprite-suite.jpg) right 4px;	
+	padding:0 20px 0 8px;
+	color:#000;
+	text-decoration:none;
+	white-space:nowrap;
+}
+.content-main .com .info-top dl dd h1 {
+  color: #000;
+  font-size: 20px;
+  width: 434px;
+}
+.content-main .com .info-top dl dd .share-feedback {
+  line-height: 22px;
+}
+.content-main .com .info-top dl dd .share-feedback a {
+  color: #333;
+  margin: 0 13px;
+}
+.content-main .com .info-top dl dd .com-star {
+  display: inline-block;
+  width: 90px;
+  height: 17px;
+  position: relative;
+  top: 3px;
+  *top: 0;
+  *float: left;
+  background: url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) -109px -600px no-repeat;
+}
+.content-main .com .info-top dl dd .com-star .star-show-pannel {
+  width: 90px;
+  background: url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) -109px -600px no-repeat;
+}
+.content-main .com .info-top dl dd .com-star .star-show-pannel:hover {
+  background: none;
+}
+.content-main .com .info-top dl dd .com-star.score-0,
+.comments .mycomment .com-star.score-0,
+.content-main .com .info-top dl dd .com-star .show-0, {
+  background-position: -90px -625px;
+}
+.content-main .com .info-top dl dd .com-star.score-1,
+.content-main .com .info-top dl dd .com-star .show-1 {
+  background-position: -90px -600px;
+}
+.content-main .com .info-top dl dd .com-star.score-2,
+.comments .mycomment .com-star.score-2,
+.content-main .com .info-top dl dd .com-star .show-2 {
+  background-position: -72px -625px;
+}
+.content-main .com .info-top dl dd .com-star.score-3,
+.content-main .com .info-top dl dd .com-star .show-3 {
+  background-position: -72px -600px;
+}
+.content-main .com .info-top dl dd .com-star.score-4,
+.comments .mycomment .com-star.score-4,
+.content-main .com .info-top dl dd .com-star .show-4 {
+  background-position: -54px -625px;
+}
+.content-main .com .info-top dl dd .com-star.score-5,
+.content-main .com .info-top dl dd .com-star .show-5 {
+  background-position: -54px -600px;
+}
+.content-main .com .info-top dl dd .com-star.score-6,
+.comments .mycomment .com-star.score-6,
+.content-main .com .info-top dl dd .com-star .show-6 {
+  background-position: -36px -625px;
+}
+.content-main .com .info-top dl dd .com-star.score-7,
+.content-main .com .info-top dl dd .com-star .show-7 {
+  background-position: -36px -600px;
+}
+.content-main .com .info-top dl dd .com-star.score-8,
+.comments .mycomment .com-star.score-8,
+.content-main .com .info-top dl dd .com-star .show-8 {
+  background-position: -18px -625px;
+}
+.content-main .com .info-top dl dd .com-star.score-9,
+.content-main .com .info-top dl dd .com-star .show-9 {
+  background-position: -18px -600px;
+}
+.content-main .com .info-top dl dd .com-star.score-10,
+.comments .mycomment .com-star.score-10,
+.content-main .com .info-top dl dd .com-star .show-10 {
+  background-position: 0 -600px;
+}
+.content-main .com .info-top dl dd .com-star li,
+.comments .mycomment .com-star li {
+  height: 17px;
+  position: absolute;
+}
+.content-main .com .info-top dl dd .com-star li a,
+.comments .mycomment .com-star li a {
+  display: block;
+  width: 100%;
+  height: 17px;
+}
+.content-main .com .info-top dl dd .com-star li a:hover,
+.comments .mycomment .com-star li a:hover {
+  background: url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) 0 -600px no-repeat;
+}
+.content-main .com .info-top dl dd .com-star li.star-1,
+.comments .mycomment .com-star li.star-1 {
+  width: 18px;
+}
+.content-main .com .info-top dl dd .com-star li.star-2,
+.comments .mycomment .com-star li.star-2 {
+  width: 36px;
+}
+.content-main .com .info-top dl dd .com-star li.star-3,
+.comments .mycomment .com-star li.star-3 {
+  width: 54px;
+}
+.content-main .com .info-top dl dd .com-star li.star-4,
+.comments .mycomment .com-star li.star-4 {
+  width: 72px;
+}
+.content-main .com .info-top dl dd .com-star li.star-5,
+.content-main .com .info-top dl dd .com-star li.star-5 {
+  width: 90px;
+}
+.content-main .com .info-top dl dd.info-editor {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.content-main .com .info-top dl dd.info-origin {
+  padding-top: 5px;
+}
+.content-main .com .info-top dl dd.info-origin .other-origin-more {
+  padding-right: 30px;
+  background: url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) 62px 5px no-repeat;
+  text-decoration: none;
+  color: #000;
+}
+.content-main .com .info-top dl dd.info-origin .other-origin-more.hover {
+  text-decoration: underline;
+  color: #ff4e00;
+  background-position: 62px -45px;
+}
+.content-main .com .info-top dl dd.info-origin .other-origin-two {
+  margin-right: 18px;
+  color: #000;
+}
+.content-main .com .info-middle {
+  padding: 8px 0 0px 27px;
+}
+
+.content-main .com .info-middle table {
+  width: 100%;
+}
+.content-main .com .info-middle table tr{
+  height:55px;
+}
+.content-main .com .info-middle table td.col-name {
+  width: 90px;
+  text-align: left;
+  color: #666;
+  font-size: 12px;
+}
+.content-main .com .info-middle table td.col-content {
+  padding: 0px 0;
+  width:460px;
+}
+.content-main .com .info-middle table td.col-img{
+  text-align:center;
+  font-size:12px;
+}
+.content-main .com .info-middle table td.col-img img {
+  width:115px;
+  height:115px;
+}
+.content-main .com .info-middle table td.col-img p{
+  line-height:18px;
+  margin:0px 0px;
+}
+.content-main .com .info-middle  table td.col-img a{
+  color:#0066CC;
+  text-decoration:underline;
+}
+
+.content-main .com .info-middle  table td.col-img .useqrcode{
+margin:4px 0px 0px 0px;
+position:relative;
+z-index:1;
+}
+.content-main .com .info-middle table td .info-download {
+  display: inline-block;
+  width: 109px;
+  height: 40px;
+  color: #fff;
+  background: url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) 0 -1726px no-repeat;
+  background-color:#ff4e00;
+  line-height: 40px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+.quickDown,
+.quickDown:hover{
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  font-family: 微软雅黑;
+  font-size: 14px;
+}
+.quickDown-info,
+.quickDown-info:hover{
+  text-decoration: none;
+  font-family: 微软雅黑;
+  font-size: 12px;
+}
+.tips-direct-install{
+  color: #a1a1a1;
+  margin-left: 10px;
+  font-size: 12px;
+}
+.content-main .com .info-middle table td .info-wdj-download {
+  display: block;
+  width: 130px;
+  height: 39px;
+  line-height: 39px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  background: url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) 0 -660px no-repeat;
+  text-decoration: none;
+}
+.content-main .com .info-middle table td .qr-code,
+.content-main .com .info-middle table td .bd-push,
+.content-main .com .info-middle table td .bd-download,
+.content-main .com .info-middle table td .sd-phone {
+  color: #333;
+  font-size: 12px;
+  padding: 5px 0 5px 31px;
+  margin-right: 25px;
+  background: url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) 0 -97px no-repeat;
+}
+.content-main .com .info-middle table td .bd-download{
+  padding-left: 32px;
+  line-height: 40px;
+  background-position: -378px -322px;
+}
+.content-main .com .info-middle table td .bd-download:hover{
+  background-position: -378px -220px;
+  color:#FF4E00;
+  text-decoration:underline;
+}
+.content-main .com .info-middle table td .bd-push {
+  padding-left: 37px;
+  line-height: 40px;
+  background-position: 0 -247px;
+}
+.content-main .com .info-middle table td .bd-push:hover {
+  color:#FF4E00;
+  text-decoration:underline;
+  background: url(http://wap.baidu.com/static/as/images/rb16_cloud_logo.png) 0 2px no-repeat;
+}
+.content-main .com .info-middle table td .sd-phone {
+  background-position: 0 -778px;
+}
+.info-send-sucess {
+  font-size: 12px;
+  color: #40a801;
+  line-height: 30px;
+}
+.info-send-tips {
+  font-size: 12px;
+  line-height: 18px;
+  width:100%;
+}
+.info-send-com {
+  width: 190px;
+  height: 32px;
+  background: url(http://wap.baidu.com/static/as/images/rb17-mobile-number.gif) no-repeat;
+  position: relative;
+  float:left;
+}
+.info-send-vcode{
+  width: 60px;
+  height: 32px;
+  background: url(http://wap.baidu.com/static/as/images/rb17-mobile-vcode.gif) no-repeat;
+  position: relative;
+  float:left; 
+  margin:0px 0px 0px 3px;
+  display:none;
+}
+.info-send-vcode input{
+  width: 50px;
+  height: 25px;
+  line-height: 16px;
+  border: none;
+  background: transparent;
+  font-size:12px;
+  color: #999;
+  font-weight: normal;
+  padding-left: 10px;
+  position: absolute;
+  left: 0;
+  top: 3px;
+  *top:7px;
+  outline:none;
+
+}
+.info-send-com .info-phone {
+  width: 175px;
+  height: 25px;
+  line-height: 16px;
+  border: none;
+  background: transparent;
+  font-size:12px;
+  color: #999;
+  font-weight: normal;
+  padding-left: 10px;
+  position: absolute;
+  left: 0;
+  top: 3px;
+  *top:7px;
+  outline:none;
+}
+.info-send-com .info-phone.inputnumber{
+  color: #000;
+  font-weight: 700;
+  font-size:14px;
+}
+.info-send-vcode input{
+  color: #000;
+  font-weight: 700;
+  font-size:14px;
+}
+.info-send-vcode-img{
+  width:60px;
+  height:32px;
+  border:none;
+  position:relative;
+  float:left;
+  margin:0 0 0 3px;
+  display:none;
+}
+.info-send-vcode-img img{
+ width:57px;
+ height:30px;
+}
+.info-send-tips-line{
+ height:32px;
+ position:relative;
+ float:left;
+ clear:both;
+ width:100%;
+ display:none;
+}
+.info-send-btn {
+  display: block;
+  width: 87px;
+  height: 34px;
+  position:relative; 
+  float:left;
+  background:url(http://wap.baidu.com/static/as/images/rb17-mobile-send-no.gif) no-repeat;
+}
+.info-send-btn.ready{
+  background:url(http://wap.baidu.com/static/as/images/rb17-mobile-send.gif) no-repeat;
+}
+.info-send-btn a{
+  width:87px;
+  height:34px;
+  display:block;
+}
+
+
+.info-origin-more-con {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  top: 18px;
+  *top: 25px;
+  display: none;
+  background-color: #fff;
+  border: 1px #d9d9d9 solid;
+  width: 156px;
+}
+.info-origin-more-con li {
+  width: 78px;
+  text-indent: 15px;
+  line-height: 30px;
+  float: left;
+  font-size: 12px;
+}
+.info-origin-more-con li a {
+  color: #565656;
+  text-decoration: none;
+}
+.content-intro {
+  margin-top: 20px;
+}
+.content-info-tab {
+  background: url(http://m.baidu.com/static/as/images/jpg/content-tab-y.jpg) 0 bottom repeat-x;
+}
+.content-info-tab li {
+  height: 43px;
+  float: left;
+  padding: 0 34px;
+  background: url(http://m.baidu.com/static/as/images/jpg/tab-right-boder.jpg) right top no-repeat;
+}
+.content-info-tab li.on {
+  background-color: #fff;
+}
+.content-info-tab li a {
+  color: #000;
+  text-decoration: none;
+  line-height: 43px;
+}
+.screenshot-con {
+  position: relative;
+  width: 702px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.screenshot-con h4 {
+  line-height: 60px;
+}
+.screenshot-con .over-con {
+  overflow: hidden;
+  width: 644px;
+  height: 422px;
+  margin: 0 auto;
+}
+.screenshot-con .nopic{
+  border:1 solid red;
+  background:url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) -0px -980px no-repeat;
+  height:60px;
+  width:220px;
+  padding-left: 70px;
+  padding-top: 16px;
+  margin-top: 23px;
+  margin-left: 190px;
+  font-size: 16px;
+}
+.screenshot-con .over-con .screen {
+  white-space: nowrap;
+}
+.screenshot-con .over-con .screen li {
+  float: left;
+  padding: 0 20px;
+}
+.screenshot-con .over-con .screen li img {
+  padding: 3px;
+  border: 1px #d2d2d2 solid;
+  background-color: #f3f6f9;
+  width: 274px;
+  height: 411px;
+}
+.screenshot-con .arrow-right {
+  display: none;
+  width: 26px;
+  height: 33px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  background: url(http://m.baidu.com/static/as/images/s-index-icon-4.png) -35px 0 no-repeat;
+}
+.screenshot-con .arrow-right:hover {
+  background-position: -35px -36px;
+}
+.screenshot-con .arrow-right.disabled {
+  background: url(http://m.baidu.com/static/as/images/s-index-icon-4.png) -363px -283px no-repeat;
+}
+.screenshot-con .arrow-left {
+  display: none;
+  width: 26px;
+  height: 33px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  background: url(http://m.baidu.com/static/as/images/s-index-icon-4.png) no-repeat;
+}
+.screenshot-con .arrow-left:hover {
+  background-position: 0 -36px;
+}
+.screenshot-con .arrow-left.disabled {
+  background: url(http://m.baidu.com/static/as/images/s-index-icon-4.png) -330px -283px no-repeat;
+}
+.info-brief {
+  width: 702px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  color: #666;
+  line-height: 1.6;
+}
+.info-brief h4 {
+  line-height: 40px;
+}
+.info-brief .brief-fold {
+  color: #000;
+  text-decoration: none;
+  width:47px;
+  height:20px;
+  display:block;
+  float:right;
+  white-space: nowrap;
+  background: url(http://wap.baidu.com/static/as/images/rb16_show_down.png) right center no-repeat;
+}
+.info-brief .brief-unfold {
+  text-decoration: none;
+  width:47px;
+  height:20px;
+  display:block;
+  float:right;
+  white-space: nowrap;
+  color: #000;
+  background: url(http://wap.baidu.com/static/as/images/rb16_show_up.png) right center no-repeat;
+}
+.params-con {
+  height: 300px;
+}
+.params-con h4 {
+  line-height: 40px;
+  padding: 0 15px;
+  margin-top: 20px;
+}
+.params-con table {
+  width: 100%;
+}
+.params-con table td {
+  padding: 0 15px;
+  line-height: 25px;
+  color: #666;
+}
+.params-con table td dl dt {
+  float: left;
+}
+.params-con table td dl dd {
+  padding-left: 70px;
+}
+.params-con table td a {
+  color: #666;
+  text-decoration: underline;
+  margin: 0 8px;
+}
+.mod-mask {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  _position: absolute;
+  z-index: 8888;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  opacity: 0.6;
+  *filter: alpha(opacity=60);
+}
+.mod-supernatant-outer {
+  display: none;
+  width: 614px;
+  height: 439px;
+  margin-left: -307px;
+  margin-top: -219px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  background-color: #fff;
+  z-index: 9999;
+  box-shadow: 15px 15px 30px #606060;  
+  _position: absolute;
+  _top: expression(documentElement.scrollTop + documentElement.clientHeight-this.offsetHeight);
+}
+.mod-supernatant-outer .mod-supernatant-inner {
+  width: 100%%;
+  height: 100%;
+  box-shadow: -15px -15px 30px #606060;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-con {
+  height: 49px;
+  line-height: 49px;
+  padding-left: 25px;
+  background: url(http://m.baidu.com/static/as/images/jpg/supernatant-top-y.jpg) repeat-x;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-con .mod-supernatant-close {
+  float: right;
+  font-weight: 400;
+  color: #000;
+  text-decoration: none;
+  padding: 0 25px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-con .mod-supernatant-title {
+  font-weight: 700;
+  font-size: 15px;
+  color: #000;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-con .mod-supernatant-title .fleft {
+  font-weight: 400;
+  text-decoration: none;
+  color: #000;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main {
+  padding: 0 25px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-title {
+  line-height: 52px;
+  border-bottom: 1px #c3c3c1 solid;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-title-2 {
+  line-height: 52px;
+  height:52px;
+  display:block;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-title span {
+  margin-right: 5px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-title .color-red {
+  color: #f20000;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-title .color-black {
+  color: #0e0e0e;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-intro {
+  margin: 55px 0px 55px 55px;
+  line-height: 29px;
+  color: #5F5F5F;
+  float: left;
+  width: 200px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-intro a {
+  color: #fd4e01;
+  text-decoration: none;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-code {
+  text-align: center;
+  padding: 20px 0px;
+  float: right;
+  margin: 30px 55px 0 0;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-main {
+  padding: 30px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-login {
+  padding: 132px 40px 0;
+  background: url(http://wap.baidu.com/static/as/images/rb16_push_bg.png) center 25px no-repeat;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-login .btn-mod-push {
+  display: block;
+  width: 116px;
+  height: 37px;
+  line-heiht: 37px;
+  text-align: center;
+  font-family: "微软雅黑";
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  background: url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) 0 -721px no-repeat;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-login .login-tips {
+  color: #7c7c7c;
+  font-size: 12px;
+  line-height: 54px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-edu {
+  width: 558px;
+  height: 515px;
+  margin: 0 auto;
+  position: relative;
+  background: url(http://m.baidu.com/static/as/images/jpg/education.jpg) no-repeat;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-edu .intro-appmobile {
+  position: absolute;
+  left: 107px;
+  top: 31px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-edu .btn-freedownload {
+  display: block;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  text-indent: 49px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  position: absolute;
+  left: 111px;
+  top: 64px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-edu .intro-login-appmobile {
+  position: absolute;
+  left: 107px;
+  top: 154px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-edu .attention{
+  position: absolute;
+  top: 118px;
+  left: 107px;
+  color:#FF8519;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-edu .btn-refresh-push {
+  display: block;
+  width: 130px;
+  height: 41px;
+  line-height: 41px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  position: absolute;
+  left: 111px;
+  top: 415px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-edu .refresh-tips {
+  position: absolute;
+  left: 281px;
+  top: 425px;
+  font-size: 12px;
+  color: #9a9a9a;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-tips {
+  font-size: 12px;
+  color: #6b6b6b;
+  line-height: 26px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .push-success-tips {
+  clear: both;
+  color: #32b200;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  padding: 5px 30px;
+  margin: 0 auto 10px auto;
+  width: 132px;
+  background: url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) 0 -839px no-repeat;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .push-success-tips.w2 {
+  width: 244px;
+  margin: 20px auto;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .warm-prompt {
+  color: #ff8519;
+  font-size: 12px;
+  text-align: center;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .btn-push {
+  display: block;
+  width: 117px;
+  height: 39px;
+  line-height: 39px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  background: url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) 0 -720px no-repeat;
+  margin-top: 10px;
+}
+
+
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-login .hezuo-login-tips {
+  color: #0e0e0e;
+  font-size: 14px;
+  line-height: 35px;
+  clear:both;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .baidu-btn-push {
+  display: block;
+  width: 210px;
+  height: 39px;
+  line-height: 39px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  background: url(http://wap.baidu.com/static/as/images/baidu-btn-push.png?ver=1203) no-repeat;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .spantext {
+  float:left;margin-top:12px;font-size:12px;color:#7c7c7c;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .spantextdown {
+  font-size:14px;color:#fd5001;text-decoration:underline;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .loginbtnspan {
+  display:block;float:left;width:220px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .weibo-btn-push-login {
+  display: block;
+  width: 210px;
+  height: 39px;
+  line-height: 39px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  background: url(http://wap.baidu.com/static/as/images/weibo_push.png?ver=1026) no-repeat;
+}
+
+
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-push {
+  padding: 10px 35px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-push .push-main {
+  width: 260px;
+  line-height: 35px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-push .push-main .push-tips {
+  font-size: 12px;
+  color: #6b6b6b;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-push .app-info {
+  width: 160px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-push .app-info table {
+  width: 100%;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-push .app-info table td {
+  vertical-align: top;
+  line-height: 24px;
+  color: #6b6b6b;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-push .app-info table td img {
+  width: 53px;
+  height: 53px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-push .app-info table td p {
+  color: #333;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-push .app-info table td .color-green {
+  color: #32b200;
+  line-height: 27px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-push .push-error-tips {
+  clear: both;
+  padding: 25px 0;
+  text-align: center;
+  font-weight: 700;
+  color: #ff4e00;
+  font-size: 18px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .tips-update-appmobile {
+  text-align: center;
+  font-size: 14px;
+  color: #ff8519;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .tips-update-appmobile a {
+  text-decoration: underline;
+  color: #0042ff;
+  margin: 0 15px;
+}
+
+
+
+/*提示登陆异常,评星成功的浮层*/
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-message{
+  text-align: center;
+  margin-top:47px;
+}
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .inner-center-button{
+  text-align: center;
+  display:block;
+  width:105px;
+  height:40px;
+  margin:35px auto 0;
+  /*border:1px solid red;*/
+  background: url(http://m.baidu.com/static/as/images/png/comment.png) -6px -5px no-repeat;
+  background-color:#ff4e00;
+  color: white;
+  line-height: 40px;
+  font-weight: 700;
+  text-decoration: none;
+}
+/*提交成功浮层*/
+.mod-supernatant-outer .mod-supernatant-inner .mod-supernatant-main .submit-success{
+  background:url(http://m.baidu.com/static/as/images/png/comment.png) -5px -72px no-repeat;
+  height:60px;
+  width:170px;
+  padding-left: 70px;
+  padding-top: 16px;
+  margin-top: 23px;
+  margin-left: 190px;
+}
+
+
+/*介绍tab---评论页*/
+.comments {
+  width: 702px;
+  margin: 0 auto;
+  color: #666;
+  line-height: 2;
+}
+
+.comments-tips {
+    background-color: #FFFBF3;
+    border: 1px solid #FFF1D9;
+    line-height: 47px;
+    margin: 5px auto;
+    text-align: center;
+    width: 700px;
+}
+.comments-tips a {
+    color: #FF4E00;
+    margin: 0 4px;
+    text-decoration: underline;
+}
+.comments .yycomment{
+  margin-top:10px;
+  color:#000;
+}
+.comments .comment{
+  border-bottom: 1px dashed #d8d8d8;
+  padding-bottom:41px;
+  margin-top: 13px;
+  font-family: "宋体",arial,verdana,sans-serif;
+}
+.comments .comment div{
+  _margin-bottom:6px;
+}
+.comments .check-my-comment {
+  color:#ff4e00;
+  font-weight: bold;
+  text-decoration: none;  
+  margin-top:6px;
+  margin-bottom:10px;
+}
+.comments .write-commnet{
+  text-decoration: none; 
+  display:block;
+  text-align: center;
+  width:105px;
+  height:40px;
+  background: url(http://m.baidu.com/static/as/images/png/comment.png) -6px -5px no-repeat;
+  background-color:#ff4e00;
+  color: white;
+  line-height: 40px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.comments .machine-type{
+  margin-left:5px;
+  font-size:12px;
+}
+.comments .comment .score{  
+  margin:0 5px;
+  display:inline-block;
+  width:90px;
+  height:17px;
+  position:relative;
+  top:3px;
+  background: url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) -109px -601px no-repeat;
+}
+
+.comments .comment .score-0{
+	background-position: -90px -625px;
+}
+.comments .comment .score-1{
+	background-position: -90px -600px;
+}
+.comments .comment .score-2{
+	background-position: -72px -625px;
+}
+.comments .comment .score-3{
+	background-position: -72px -600px;
+}
+.comments .comment .score-4{
+	background-position: -54px -625px;
+}
+.comments .comment .score-5{
+	background-position: -54px -600px;
+}
+.comments .comment .score-6{
+	background-position: -36px -625px;
+}
+.comments .comment .score-7{
+	background-position: -36px -600px;
+}
+.comments .comment .score-8{
+	background-position: -18px -625px;
+}
+.comments .comment .score-9{
+	background-position: -18px -600px;
+}
+.comments .comment .score-10{
+	background-position: 0 -600px;
+}
+
+.comments .comment .info{
+  color:#9b9b9b;
+}
+
+.comments .comment .dingcai{
+  font-size:12px;
+  width:77px;
+}
+.comments .comment .ding{
+  background: url(http://m.baidu.com/static/as/images/png/comment.png) -133px -17px no-repeat;
+  padding-left:20px;
+  text-decoration: none;
+}
+.comments .comment .cai{
+  background:url(http://m.baidu.com/static/as/images/png/comment.png) -200px -16px no-repeat;
+  padding-left:20px; 
+  text-decoration: none;
+}
+
+
+
+/*评论tab---评论页*/
+.comments .yycomment2{
+  margin-top: 15px;
+  color: black;
+}
+.comments .mycomment{
+  background-color:#f8f8f8;
+  width:704px;
+  margin: 10px auto 24px;
+}
+
+/*评论tab,应用评论-还没有写评论*/
+.comments .not-write{
+  height:198px;
+}
+
+/*评论tab,应用评论-已经写评论*/
+.comments .already-write{
+  
+}
+.comments .already-write .banner{
+  height:40px;
+  color:black;
+  background-color: rgb(238,238,238);
+}
+.comments .already-write .banner .wodepinglun{
+  margin-top: 7px;
+  margin-left: 20px;
+  margin-left: 10px;
+}
+.comments .already-write .banner .changebutton{
+  display: block;
+  margin-top: 8px;
+  margin-right: 24px;
+  _margin-right: 12px;
+  font-size: 14px;
+  color:black;
+}
+.comments .already-write .comment{
+  padding-left:20px;
+  line-height: 2.5;
+  border:none;
+}
+.comments .already-write .comment .myscore{
+  margin: 0 5px;
+  display: inline-block;
+  width: 110px;
+  height: 24px;
+  position: relative;
+  top:3px;
+  background: url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) -110px -937px no-repeat;
+}
+.comments .already-write .comment .score-none{
+  background-position: -110px -937px;
+}
+.comments .already-write .comment .score-10{
+  background-position:-0px -937px;
+}
+.comments .already-write .comment .score-8{
+  background-position: -22px -937px;
+}
+.comments .already-write .comment .score-6{
+  background-position: -44px -937px;
+}
+.comments .already-write .comment .score-4{
+  background-position: -66px -937px;
+}
+.comments .already-write .comment .score-2{
+  background-position: -88px -937px;
+}
+
+
+.comments .mycomment .attention{
+  margin-left:13px;
+  font-size:12px;
+
+}
+.comments .mycomment .comment-content{
+  font-size:12px;
+  margin-top:14px;
+  margin-left: 21px;
+  height:82px;
+}
+.comments .mycomment .comment-content span{
+  
+ /* display: block;*/
+  float: left;
+  margin-right: 6px;
+  margin-top:-6px;
+  _margin-top:-3px;
+}
+.comments .mycomment .comment-content .contents{
+  height:58px;
+  width:581px;
+  border:1px solid #d8d8d8;
+  padding:7px;
+  resize:none;
+}
+.comments .mycomment .attention-word{
+  margin-left: 86px;
+  _margin-left: 45px;
+  font-size: 12px;
+  float: left;
+}
+.comments .mycomment .submit{
+  float: right;
+  margin-top: 6px;
+  margin-right: 20px;
+  text-align: center;
+  display: block;
+  width: 105px;
+  height: 40px;
+  background: url(http://m.baidu.com/static/as/images/png/comment.png) -6px -5px no-repeat;
+  color: white;
+  line-height: 40px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.comments .comment .msgcontent{
+	line-height:1.5;
+	word-break: break-all;
+}
+
+
+/*评星,提示评分外框*/
+.comments .mycomment .commentbox{
+  padding-top:10px;
+}
+/*评星按钮*/
+.comments .mycomment .commentbox .com-star {
+  display: inline-block;
+  width: 90px;
+  height: 17px;
+  position: relative;
+  top: 3px;
+  *position:static;
+  *top: 0;
+  *float: left;
+  background: url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) -109px -890px no-repeat;
+  margin:3px 0 0 18px;
+  _margin-left:9px;
+}
+.comments .mycomment .commentbox .com-star .star-show-pannel {
+  width: 90px;
+  background: url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) -109px -890px no-repeat;
+}
+.comments .mycomment .com-star .star-show-pannel:hover {
+  background: none;
+}
+.comments .mycomment .commentbox .score-0,
+.comments .mycomment .com-star .show-0 {
+  background-position: -90px -915px;
+}
+.comments .mycomment .commentbox .score-1,
+.comments .mycomment .com-star .show-1 {
+  background-position: -90px -915px;
+}
+.comments .mycomment .commentbox .score-2,
+.comments .mycomment .com-star .show-2 {
+  background-position: -72px -915px;
+}
+.comments .mycomment .commentbox .score-3,
+.comments .mycomment .com-star .show-3 {
+  background-position: -72px -915px;
+}
+.comments .mycomment .commentbox .score-4,
+.comments .mycomment .com-star .show-4 {
+  background-position: -54px -915px;
+}
+.comments .mycomment .commentbox .score-5,
+.comments .mycomment .com-star .show-5 {
+  background-position: -54px -915px;
+}
+.comments .mycomment .commentbox .score-6,
+.comments .mycomment .com-star .show-6 {
+  background-position: -36px -915px;
+}
+.comments .mycomment .commentbox .score-7,
+.comments .mycomment .com-star .show-7 {
+  background-position: -36px -915px;
+}
+.comments .mycomment .commentbox .score-8,
+.mycomment .com-star .show-8 {
+  background-position: -18px -915px;
+}
+.comments .mycomment .commentbox .score-9,
+.mycomment .com-star .show-9 {
+  background-position: -18px -915px;
+}
+.comments .mycomment .commentbox .score-10,
+.comments .mycomment .com-star .show-10 {
+  background-position: 0 -915px;
+}
+.comments .mycomment .com-star li {
+  height: 17px;
+  position: absolute;
+}
+.comments .mycomment .com-star li a {
+  display: block;
+  width: 100%;
+  height: 17px;
+}
+.comments .mycomment .com-star li a:hover {
+  background: url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) 0 -890px no-repeat;
+}
+.comments .mycomment .com-star li.star-1 {
+  width: 18px;
+}
+.comments .mycomment .com-star li.star-2 {
+  width: 36px;
+}
+.comments .mycomment .com-star li.star-3 {
+  width: 54px;
+}
+.comments .mycomment .com-star li.star-4 {
+  width: 72px;
+}
+.comments .mycomment .com-star li.star-5 {
+  width: 90px;
+}
+/*换行内边距*/
+.data-tabcon .devidepage{
+  padding: 26px 0 26px 0;
+}
+/*PC Suite插件*/
+.tip-pcsuite{
+	text-align:center;color:#7c7c7c;font-size:12px;
+}
+.icon-flow-pcsuite{width:445px;margin:22px auto;padding:12px 0;background:url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1115) #fff 83px -1368px no-repeat}
+a.btn-suite{display:block;width:230px;height:40px;line-height:40px;margin:22px auto;text-align:center;font-size:20px;font-weight:700;color:#fff;background:url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) #ff4e00 -2px -1107px no-repeat; text-decoration:none;}
+.inner-next{border-top:1px #c3c3c1 solid; line-height:80px;}
+.checkbox-suite-hasinstalled{position:relative;top:1px;}
+a.btn-suite-next-disabled{display:inline-block;width:118px;height:31px;line-height:31px;color:#868686;float:right;text-decoration:none;background:url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1116) -1px -1561px no-repeat;text-align:center;margin-top:24px;}
+a.btn-suite-next-enable{display:inline-block;width:118px;height:31px;line-height:31px;color:#65a200;float:right;text-decoration:none;background:url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1116) -1px -1507px no-repeat;text-align:center;margin-top:24px;}
+.installing-pcsuite{background:url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1116) 120px -1203px no-repeat;margin:46px 116px;padding:11px 0;}
+.installing-pcsuite img{width:72px; height:72px;}
+.tip-pcsuite-not-started a{color:#fd5001; text-decoration:underline;}
+.tip-pcsuite-not-started{line-height:50px;}
+a.btn-pcsuite-complete{display:block;width:230px;height:40px;line-height:40px;margin:22px auto;text-align:center;font-size:20px;font-weight:700;color:#fff;background:url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) #ff4e00 -2px -1107px no-repeat; text-decoration:none;}
+.info-pcsuite{
+  display: inline-block;
+  width: 73px;
+  height: 39px;
+  color: #fff;
+  background:url(http://m.baidu.com/static/as/images/jpg/sprites-content.jpg?ver=1026) #ff4e00 -1px -1605px no-repeat;
+  line-height: 40px;
+  padding-left: 34px;
+  font-weight: 700;
+  text-decoration: none;
+}
+a.info-pcsuite:hover{
+  text-decoration: none;
+}
+/*举报*/
+.report-content{font-size:14px;color:#333;}
+.report-content textarea{color:#BDBDBD;width:560px;height:140px;font-size:12px;padding:5px;border:1px #97E8FF solid;}
+.report-user-vcode{width:50px;height:20px;border:1px #C3C3C1 solid;}
+.report-vcode-img{width:70px;height:20px;}
+.report-left-word{height:28px;font-size:12px;color:#707070;}
+.report-left-word #report-left-word-num{color:#FF7510;}
+.report-left-word-tip{color:red;}
+.report-middle{overflow:hidden;height:46px;}
+.report-middle a{text-decoration:underline;font-size:12px;color:#0B6BE1;}
+.report_update{font-size:12px;color:#707070;margin:0px 0px 5px 0px;}
+.report-middle .vcode_img_span{position:relative;top:5px;}
+.report-bottom{width:100%;text-align:center;height:40px;border-top:1px #c3c3c1 solid;padding-top:20px; }
+.report-bottom button.report_send{border:none;display:block;cursor:pointer;margin:0 auto;width:87px;height:35px;background:url(http://wap.baidu.com/static/as/images/rb17-submit-ok.gif) no-repeat}
+.report-bottom button.report_send_disable{border:none;display:block;margin:0 auto;width:87px;height:35px;background:url(http://wap.baidu.com/static/as/images/rb17-submit.gif) no-repeat}
+.report-result-info{height:30px;color:#52B019;text-align:center;}
+.report-result-info span{padding-left:30px;height:30px;color:#52B019;text-align:center;font-weight:bold;background:url(http://wap.baidu.com/static/as/images/rb17-report-ok.gif) no-repeat;}
+.report-result-thx{height:70px;text-align:center;}
+.report-result-close{cursor:pointer;width:100%;text-align:center;height:50px;}
+.report-close-btn{margin:0 auto;width:117px;height:35px;display:block;background:url(http://wap.baidu.com/static/as/images/rb17-5-sec-bg.gif) no-repeat;color:#000;font-weight:bold;padding:10px 0px 0px 0px;}
+.report-vcode-tip{font-size:12px;padding:2px 0px 0px 55px;color:red;}
+.report-vcode-right{margin:0px 0px 0px 30px;width:20px;display:hidden;height:20px;background:url(http://wap.baidu.com/static/as/images/rb17-report-ok.gif) no-repeat}
+.report-btn{width:654px;height:40px;overflow:hidden;}
+.report-btn a{position:relative;float:right;margin:5px 0px 0px 0px;height:32px;width:85px;display:block;background:url(http://wap.baidu.com/static/as/images/rb17-report-btn.gif) no-repeat;}
+
