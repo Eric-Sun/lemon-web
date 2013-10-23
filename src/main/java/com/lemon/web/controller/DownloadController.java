@@ -31,12 +31,10 @@ public class DownloadController {
 
         String name = request.getParameter("id");
         response.setContentType("application/octet-stream");
-        if (name.equals("100")) {
-            name = "demo.apk";
-        } else if (name.equals("1"))
-            name = "demo.apk";
+        if (name.equals("0"))
+            name = "Foxmail_for_Mac_V1.1.0.dmg";
         else
-            name = "demo.apk";
+            name = "fm70chb1_92_setup.exe";
         response.setHeader("Content-Disposition", "attachment;filename=" + name);
         String filePath = path + File.separator + name;
         FileInputStream fis = new FileInputStream(new File(filePath));
